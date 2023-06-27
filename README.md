@@ -7,7 +7,7 @@ The Quiz for Javascript Concepts is a website where users can test their knowled
 The website can be accessed on any browser by inputting the URL for the deployed site into the address bar. Once on the page, they will click "Start Quiz" and then be led to the first question. 
 
 ## Usage
-Once the website can be accessed through the deployed site URL, the user will need to navigate over the red "Generate Password" button at the bottom of the text box. 
+Once the website can be accessed through the deployed site URL, the user will need to initialize the quiz by clicking the purple "Start Quiz" button at the bottom of the text box. 
 1. Click "Start Quiz"
 ![Start Button](./imgs/start-button.jpg)
 2. Select the correct answer from the listed options
@@ -18,7 +18,9 @@ Once the website can be accessed through the deployed site URL, the user will ne
 ![Incorrect answer question example](./imgs/incorrect-example.jpg)
 
 
-Please note that the developer is currently working to implement a scoring system which will allow the user to see their scores in real-time as they answer the questions and move through the quiz. 
+Please note that at the bottom of the questions, their a score of how many questions the user has gotten right so far. Additionally, the message "Time has run out" displays when the timers for the quiz runs out. 
+
+The process of implementing a high score list is still currently in development. 
 
 
 ## Credits
