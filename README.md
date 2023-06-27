@@ -9,13 +9,13 @@ The website can be accessed on any browser by inputting the URL for the deployed
 ## Usage
 Once the website can be accessed through the deployed site URL, the user will need to navigate over the red "Generate Password" button at the bottom of the text box. 
 1. Click "Start Quiz"
-![Start Button](./imgs/start-button.png)
+![Start Button](./imgs/start-button.jpg)
 2. Select the correct answer from the listed options
 ![Question 1](./imgs/question.jpg)
 3. If the answer is correct, you will be alerted "Correct!" and the message "Good Job!" will display under the question. 
-![Correct answer question example](./imgs/correct-example.png)
+![Correct answer question example](./imgs/correct-example.jpg)
 4. If the answer is wrong, you will be alerted "Incorrect!" and the message "Keep Trying!" will display under the question. 
-![Incorrect answer question example](./imgs/incorrect-example.png)
+![Incorrect answer question example](./imgs/incorrect-example.jpg)
 
 
 Please note that the developer is currently working to implement a scoring system which will allow the user to see their scores in real-time as they answer the questions and move through the quiz. 
