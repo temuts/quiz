@@ -54,7 +54,7 @@ var nextButton = document.getElementById('next-btn');
 var answerResult = document.getElementById("answer-text");
 var timer = document.getElementById("timer");
 var timeFinished = document.getElementById("time-over");
-var score = document.getElementById("score");
+var scoreElement = document.getElementById("score");
 
 var currentQuestionIndex= 0;
 var clockId = 0;
@@ -100,6 +100,10 @@ function nextQuestion(){
         answerResult.textContent = "Good Job!";
         correctAnswers.push(answer);
         console.log(correctAnswers);
+        function score(){
+            var points = correctAnswers.length;
+            scoreElement.innerHTML = points;
+        }
     } else {
         alert("Incorrect!");
         answerResult.classList.remove('hide-element');
@@ -108,16 +112,7 @@ function nextQuestion(){
     // console.log(answerResult.textContent);
     currentQuestionIndex++;
     setTimeout(currentQuestion, 1000);
-    function points(){
-        var article = document.createElement("article");
-        // console.log(correctAnswers);
-        // article.innerHTML = correctAnswers.length;
-        score.innerHTML = correctAnswers.length;
-        score.setAttribute("#score");
-        points.appendChild(article);
-
-    }
-
+    score();
 }
 
 function countdown(){
@@ -128,5 +123,4 @@ function countdown(){
         clearInterval(clockId);
     } 
 }
-
 
