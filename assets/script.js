@@ -121,6 +121,13 @@ function countdown(){
         timeFinished.textContent = "Time has run out.";
         nextButton.classList.add('hide-element');
         clearInterval(clockId);
+        setTimeout(highScore, 1000);
     } 
+}
+
+function highScore(){
+    document.body.classList.add('hide-element');
+    var userName = document.createElement("form");
+
 }
 
